@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model_path = '/Users/abhi/Desktop/Github_Abhi0323/Health_Insights/iris_model.pkl'  # Update this path if your model is in a different directory
+model_path = 'iris_model.pkl'  
 model = joblib.load(model_path)
 
 # Define the Iris species based on the index for displaying the prediction in a human-readable format
